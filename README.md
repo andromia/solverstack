@@ -12,8 +12,8 @@ Software for solving problems via module-composed stacks.
 
 - [`solverstack-vrp-rpc`](https://github.com/andromia/solverstack-vrp-rpc)
 
-  - ![](https://github.com/andromia/solverstack-vrp-rpc/workflows/Python%20application/badge.svg)
+  - ![vrp-rpc](https://github.com/andromia/solverstack-vrp-rpc/workflows/vrp-rpc/badge.svg)
 
 - [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-vrp-crud)
-  - ![](https://github.com/andromia/solverstack-vrp-crud/workflows/Python%20application/badge.svg)
+  - ![vrp-crud](https://github.com/andromia/solverstack-vrp-crud/workflows/vrp-crud/badge.svg)
 
