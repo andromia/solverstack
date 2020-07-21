@@ -16,3 +16,6 @@
 [submodule "solverstack-vrp-crud"]
 	path = solverstack-vrp-crud
 	url = https://github.com/andromia/solverstack-vrp-crud
+[submodule "solverstack-open-gallery"]
+	path = solverstack-open-gallery
+	url = https://github.com/andromia/solverstack-open-gallery
