@@ -19,3 +19,6 @@
 [submodule "solverstack-open-gallery"]
 	path = solverstack-open-gallery
 	url = https://github.com/andromia/solverstack-open-gallery
+[submodule "solverstack-vrp-queue"]
+	path = solverstack-vrp-queue
+	url = https://github.com/andromia/solverstack-vrp-queue
