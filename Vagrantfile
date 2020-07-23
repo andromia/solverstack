@@ -2,7 +2,8 @@
 # vi: set ft=ruby :
 
 
-BOX = "bento/ubuntu-16.04"
+PROVIDER = "virtualbox"
+BOX = "bento/ubuntu-20.04"
 SCRIPT = "./scripts/vm-bootstrap.sh"
 
 # if on windows host without admin rights, warn & exit
@@ -19,7 +20,7 @@ end
 
 Vagrant.configure(2) do |config|
 
-    config.vm.provider "virtualbox" do |vb|
+    config.vm.provider PROVIDER do |vb|
       vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
     end
 
