@@ -16,9 +16,8 @@ end
 
 Vagrant.configure(2) do |config|
 
-    config.vm.provider "virtualbox" do |vb|
-      vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
-    end
+    # resolve symlink for yarn
+    config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__args: ["--verbose", "--archive", "--delete", "-z"]
 
     config.vm.box = "bento/ubuntu-16.04"
 
