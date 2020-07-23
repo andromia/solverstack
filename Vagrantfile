@@ -2,6 +2,9 @@
 # vi: set ft=ruby :
 
 
+BOX = "bento/ubuntu-16.04"
+SCRIPT = "./scripts/vm-bootstrap.sh"
+
 # if on windows host without admin rights, warn & exit
 if Vagrant::Util::Platform.windows? then
   def running_in_admin_mode?
@@ -16,10 +19,13 @@ end
 
 Vagrant.configure(2) do |config|
 
-    # resolve symlink for yarn
-    config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__args: ["--verbose", "--archive", "--delete", "-z"]
+    config.vm.provider "virtualbox" do |vb|
+      vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
+    end
 
-    config.vm.box = "bento/ubuntu-16.04"
+    # config.vm.synced_folder ".", "/var/www", type: "rsync", rsync__args: ["--verbose", "--archive", "--delete", "-z"]
+
+    config.vm.box = BOX
 
     # Install Docker
     config.vm.provision :docker
@@ -53,5 +59,5 @@ Vagrant.configure(2) do |config|
     # user-crud mongo db
     config.vm.network :forwarded_port, guest: 27017, host: 27017
 
-    config.vm.provision "shell", path: "./scripts/vm-bootstrap.sh"
+    config.vm.provision "shell", path: SCRIPT
   end
