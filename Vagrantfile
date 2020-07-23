@@ -17,11 +17,10 @@ end
 Vagrant.configure(2) do |config|
 
     config.vm.provider "virtualbox" do |vb|
-      vb.memory = "512"
       vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
     end
 
-    config.vm.box = "bento/ubuntu-20.04"
+    config.vm.box = "bento/ubuntu-16.04"
 
     # Install Docker
     config.vm.provision :docker
@@ -37,4 +36,23 @@ Vagrant.configure(2) do |config|
     # vrp-rpc
     config.vm.network :forwarded_port, guest: 5000, host: 5000
 
+    # vrp-crud
+    config.vm.network :forwarded_port, guest: 5001, host: 5001
+
+    # vrp-crud postgreSQL db
+    config.vm.network :forwarded_port, guest: 5002, host: 5002
+
+    # vrp-queue
+    config.vm.network :forwarded_port, guest: 7878, host: 7878
+
+    # user-auth
+    config.vm.network :forwarded_port, guest: 8080, host: 8080
+
+    # user-crud
+    config.vm.network :forwarded_port, guest: 8081, host: 8081
+
+    # user-crud mongo db
+    config.vm.network :forwarded_port, guest: 27017, host: 27017
+
+    config.vm.provision "shell", path: "./scripts/vm-bootstrap.sh"
   end
