@@ -6,7 +6,7 @@ apt-get install build-essential -y
 apt-get install -y vim curl
 
 # python3
-apt-get install -y python3-dev python3-wheel python3-setuptools python3-six python3-pip
+apt-get install -y python3-dev python3-wheel python3-setuptools python3-six python3-pip python3-venv
 
 # rust
 echo 'curl https://sh.rustup.rs -sSf | sh -s -- -y;' | su vagrant
