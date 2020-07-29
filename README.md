@@ -22,12 +22,10 @@ Software for modularized analytical solutions.
 **Python-dominated [flask](https://github.com/pallets/flask) services**
 
 - [`solverstack-vrp-rpc`](https://github.com/andromia/solverstack-vrp-rpc)
-  - ![vrp-rpc](https://github.com/andromia/solverstack-vrp-rpc/workflows/vrp-rpc/badge.svg)
   - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
   - [NumPy](https://github.com/numpy/numpy) optimized service
 
 - [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-vrp-crud)
-  - ![vrp-crud](https://github.com/andromia/solverstack-vrp-crud/workflows/vrp-crud/badge.svg)
   - [postgreSQL](https://github.com/postgres/postgres) vrp module service
   
 **Supplemental [Rust](https://github.com/rust-lang/rust)-dominated services**
@@ -38,4 +36,4 @@ Software for modularized analytical solutions.
 **Open-source contributions**
 
 - [`solverstack-open-gallery`](https://github.com/andromia/solverstack-open-gallery)
-  - [d3](https://github.com/d3/d3)
+  - [d3](https://github.com/d3/d3) sandboxes
