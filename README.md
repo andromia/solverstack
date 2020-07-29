@@ -32,7 +32,7 @@ Software for modularized analytical solutions.
 **Supplemental [Rust](https://github.com/rust-lang/rust)-dominated services**
   
 - [`solverstack-vrp-queue`](https://github.com/andromia/solverstack-vrp-queue)
-  - Scalable procedure integration management service
+  - Scalable asynchronous vrp procedure integration service
 
 **Open-source contributions**
 
