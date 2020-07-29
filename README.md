@@ -23,7 +23,8 @@ Software for modularized analytical solutions.
 
 - [`solverstack-vrp-rpc`](https://github.com/andromia/solverstack-vrp-rpc)
   - ![vrp-rpc](https://github.com/andromia/solverstack-vrp-rpc/workflows/vrp-rpc/badge.svg)
-  - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) service
+  - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
+  - [NumPy](https://github.com/numpy/numpy) optimized service
 
 - [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-vrp-crud)
   - ![vrp-crud](https://github.com/andromia/solverstack-vrp-crud/workflows/vrp-crud/badge.svg)
