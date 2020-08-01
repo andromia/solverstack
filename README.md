@@ -35,5 +35,5 @@ Software for modularized analytical solutions.
 
 **Open-source contributions**
 
-- [`solverstack-open-gallery`](https://github.com/andromia/solverstack-open-gallery)
+- _TODO_: [`solverstack-open-gallery`](https://github.com/andromia/solverstack-open-gallery)
   - [d3](https://github.com/d3/d3) sandboxes
