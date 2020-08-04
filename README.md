@@ -18,7 +18,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
   - [next.js](https://github.com/vercel/next.js)
   - UI-driven [d3](https://github.com/d3/d3) visualization
 
-**[TypeScript](https://github.com/microsoft/TypeScript) [Node.js](https://github.com/nodejs) services**
+**[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>](https://github.com/microsoft/TypeScript) [Node.js](https://github.com/nodejs) services**
 
 - [`solverstack-user-auth`](https://github.com/andromia/solverstack-user-auth)
   - Gmail Authentication
@@ -27,7 +27,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 - [`solverstack-user-crud`](https://github.com/andromia/solverstack-user-crud)
   - [mongodb](https://github.com/mongodb) user module service
   
-**Python [flask](https://github.com/pallets/flask) services**
+**<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
 
 - [`solverstack-vrp-rpc`](https://github.com/andromia/solverstack-vrp-rpc)
   - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
@@ -36,7 +36,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 - [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-vrp-crud)
   - [postgreSQL](https://github.com/postgres/postgres) vrp module service
   
-**Supplemental [Rust](https://github.com/rust-lang/rust) services**
+**[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>](https://github.com/rust-lang/rust) services**
   
 - [`solverstack-vrp-queue`](https://github.com/andromia/solverstack-vrp-queue)
   - Scalable asynchronous vrp procedure integration service
