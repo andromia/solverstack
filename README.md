@@ -14,7 +14,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 
 **Client applications**
 
-- [`solverstack-web-client`](https://github.com/andromia/solverstack-web-client)
+- [`solverstack-client`](https://github.com/andromia/solverstack-client)
   - [next.js](https://github.com/vercel/next.js)
   - UI-driven [d3](https://github.com/d3/d3) visualization
 
@@ -29,7 +29,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
   
 **<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
 
-- [`solverstack-vrp-rpc`](https://github.com/andromia/solverstack-vrp-rpc)
+- [`solverstack-vrp`](https://github.com/andromia/solverstack-vrp)
   - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
   - [NumPy](https://github.com/numpy/numpy) optimized service
 
@@ -38,10 +38,10 @@ We plan to release free services at solverstack.com. Users can also sign up and 
   
 **[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>](https://github.com/rust-lang/rust) services**
   
-- [`solverstack-vrp-queue`](https://github.com/andromia/solverstack-vrp-queue)
-  - Scalable asynchronous vrp procedure integration service
+- [`solverstack-queue`](https://github.com/andromia/solverstack-queue)
+  - Scalable asynchronous rpc integration service
 
 **Open-source contributions**
 
-- _TODO_: [`solverstack-open-gallery`](https://github.com/andromia/solverstack-open-gallery)
+- _TODO_: [`solverstack-gallery`](https://github.com/andromia/solverstack-gallery)
   - [d3](https://github.com/d3/d3) sandboxes
