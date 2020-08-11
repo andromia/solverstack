@@ -1,24 +1,24 @@
 [submodule "solverstack-infra"]
 	path = solverstack-infra
 	url = https://github.com/andromia/solverstack-infra
-[submodule "solverstack-web-client"]
-	path = solverstack-web-client
-	url = https://github.com/andromia/solverstack-web-client
+[submodule "solverstack-client"]
+	path = solverstack-client
+	url = https://github.com/andromia/solverstack-client
 [submodule "solverstack-user-auth"]
 	path = solverstack-user-auth
 	url = https://github.com/andromia/solverstack-user-auth
 [submodule "solverstack-user-crud"]
 	path = solverstack-user-crud
 	url = https://github.com/andromia/solverstack-user-crud
-[submodule "solverstack-vrp-rpc"]
-	path = solverstack-vrp-rpc
-	url = https://github.com/andromia/solverstack-vrp-rpc
+[submodule "solverstack-vrp"]
+	path = solverstack-vrp
+	url = https://github.com/andromia/solverstack-vrp
 [submodule "solverstack-vrp-crud"]
 	path = solverstack-vrp-crud
 	url = https://github.com/andromia/solverstack-vrp-crud
-[submodule "solverstack-open-gallery"]
-	path = solverstack-open-gallery
-	url = https://github.com/andromia/solverstack-open-gallery
-[submodule "solverstack-vrp-queue"]
-	path = solverstack-vrp-queue
-	url = https://github.com/andromia/solverstack-vrp-queue
+[submodule "solverstack-gallery"]
+	path = solverstack-gallery
+	url = https://github.com/andromia/solverstack-gallery
+[submodule "solverstack-queue"]
+	path = solverstack-queue
+	url = https://github.com/andromia/solverstack-queue
