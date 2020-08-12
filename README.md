@@ -29,9 +29,15 @@ We plan to release free services at solverstack.com. Users can also sign up and 
   
 **<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
 
+- [`solverstack-geocode`](https://github.com/andromia/solverstack-geocode)
+  - [pgeocode](https://github.com/symerio/pgeocode) geocoding service
+
 - [`solverstack-vrp`](https://github.com/andromia/solverstack-vrp)
   - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
   - [NumPy](https://github.com/numpy/numpy) optimized service
+
+- [`solverstack-vrp-origin`](https://github.com/andromia/solverstack-geocode)
+  - [clustering](https://en.wikipedia.org/wiki/K-means_clustering) service for origin positioning in vrp
 
 - [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-vrp-crud)
   - [postgreSQL](https://github.com/postgres/postgres) vrp module service

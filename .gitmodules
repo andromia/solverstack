@@ -25,3 +25,6 @@
 [submodule "solverstack-geocode"]
 	path = solverstack-geocode
 	url = https://github.com/andromia/solverstack-geocode
+[submodule "solverstack-vrp-origin"]
+	path = solverstack-vrp-origin
+	url = https://github.com/andromia/solverstack-vrp-origin
