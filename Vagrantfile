@@ -36,10 +36,10 @@ Vagrant.configure(2) do |config|
     # vagrant plugin install vagrant-docker-compose
     config.vm.provision :docker_compose
 
-    # web-client
+    # client
     config.vm.network :forwarded_port, guest: 3000, host: 3000
 
-    # vrp-rpc
+    # vrp
     config.vm.network :forwarded_port, guest: 5000, host: 5000
 
     # vrp-crud
@@ -48,7 +48,13 @@ Vagrant.configure(2) do |config|
     # vrp-crud postgreSQL db
     config.vm.network :forwarded_port, guest: 5002, host: 5002
 
-    # vrp-queue
+    # vrp-origin
+    config.vm.network :forwarded_port, guest: 5003, host: 5003
+
+    # geocode
+    config.vm.network :forwarded_port, guest: 5004, host: 5004
+
+    # queue
     config.vm.network :forwarded_port, guest: 7878, host: 7878
 
     # user-auth
