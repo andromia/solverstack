@@ -22,3 +22,6 @@
 [submodule "solverstack-queue"]
 	path = solverstack-queue
 	url = https://github.com/andromia/solverstack-queue
+[submodule "solverstack-geocode"]
+	path = solverstack-geocode
+	url = https://github.com/andromia/solverstack-geocode
