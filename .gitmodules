@@ -10,11 +10,11 @@
 [submodule "solverstack-user-crud"]
 	path = solverstack-user-crud
 	url = https://github.com/andromia/solverstack-user-crud
-[submodule "solverstack-vrp"]
-	path = solverstack-vrp
-	url = https://github.com/andromia/solverstack-vrp
-[submodule "solverstack-vrp-crud"]
-	path = solverstack-vrp-crud
+[submodule "solverstack-route"]
+	path = solverstack-route
+	url = https://github.com/andromia/solverstack-route
+[submodule "solverstack-crud"]
+	path = solverstack-crud
 	url = https://github.com/andromia/solverstack-vrp-crud
 [submodule "solverstack-gallery"]
 	path = solverstack-gallery
@@ -25,6 +25,6 @@
 [submodule "solverstack-geocode"]
 	path = solverstack-geocode
 	url = https://github.com/andromia/solverstack-geocode
-[submodule "solverstack-vrp-origin"]
-	path = solverstack-vrp-origin
-	url = https://github.com/andromia/solverstack-vrp-origin
+[submodule "solverstack-depot"]
+	path = solverstack-depot
+	url = https://github.com/andromia/solverstack-depot
