@@ -1,9 +1,9 @@
 [submodule "solverstack-infra"]
 	path = solverstack-infra
 	url = https://github.com/andromia/solverstack-infra
-[submodule "solverstack-client"]
-	path = solverstack-client
-	url = https://github.com/andromia/solverstack-client
+[submodule "solverstack-web"]
+	path = solverstack-web
+	url = https://github.com/andromia/solverstack-web
 [submodule "solverstack-user-auth"]
 	path = solverstack-user-auth
 	url = https://github.com/andromia/solverstack-user-auth

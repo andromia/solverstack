@@ -36,7 +36,7 @@ Vagrant.configure(2) do |config|
     # vagrant plugin install vagrant-docker-compose
     config.vm.provision :docker_compose
 
-    # client
+    # web
     config.vm.network :forwarded_port, guest: 3000, host: 3000
 
     # route

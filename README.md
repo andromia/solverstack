@@ -14,7 +14,7 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 
 **Client applications**
 
-- [`solverstack-client`](https://github.com/andromia/solverstack-client)
+- [`solverstack-web`](https://github.com/andromia/solverstack-web) browser client
   - [next.js](https://github.com/vercel/next.js)
   - UI-driven [d3](https://github.com/d3/d3) visualization
 
