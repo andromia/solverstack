@@ -39,16 +39,16 @@ Vagrant.configure(2) do |config|
     # client
     config.vm.network :forwarded_port, guest: 3000, host: 3000
 
-    # vrp
+    # route
     config.vm.network :forwarded_port, guest: 5000, host: 5000
 
-    # vrp-crud
+    # crud
     config.vm.network :forwarded_port, guest: 5001, host: 5001
 
-    # vrp-crud postgreSQL db
+    # crud postgreSQL db
     config.vm.network :forwarded_port, guest: 5002, host: 5002
 
-    # vrp-origin
+    # depot
     config.vm.network :forwarded_port, guest: 5003, host: 5003
 
     # geocode
