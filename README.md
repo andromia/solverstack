@@ -17,29 +17,24 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 - [`solverstack-web`](https://github.com/andromia/solverstack-web) browser client
   - [next.js](https://github.com/vercel/next.js)
   - UI-driven [d3](https://github.com/d3/d3) visualization
-
-**[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>](https://github.com/microsoft/TypeScript) [Node.js](https://github.com/nodejs) services**
-
-- [`solverstack-user-auth`](https://github.com/andromia/solverstack-user-auth)
-  - Gmail Authentication
-  - Github Authentication
-
-- [`solverstack-user-crud`](https://github.com/andromia/solverstack-user-crud)
-  - [mongodb](https://github.com/mongodb) user module service
   
 **<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
+
+- [`solverstack-user`](https://github.com/andromia/solverstack-user)
+  - Gmail Authentication
+  - Github Authentication
 
 - [`solverstack-geocode`](https://github.com/andromia/solverstack-geocode)
   - [pgeocode](https://github.com/symerio/pgeocode) geocoding service
 
-- [`solverstack-vrp`](https://github.com/andromia/solverstack-route)
+- [`solverstack-route`](https://github.com/andromia/solverstack-route)
   - [Vehicle routing](https://en.wikipedia.org/wiki/Vehicle_routing_problem) module
   - [NumPy](https://github.com/numpy/numpy) optimized service
 
 - [`solverstack-depot`](https://github.com/andromia/solverstack-depot)
   - [clustering](https://en.wikipedia.org/wiki/K-means_clustering) service for depot position and size optimization
 
-- [`solverstack-vrp-crud`](https://github.com/andromia/solverstack-crud)
+- [`solverstack-crud`](https://github.com/andromia/solverstack-crud)
   - [postgreSQL](https://github.com/postgres/postgres) for module component data storage
   
 **[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>](https://github.com/rust-lang/rust) services**

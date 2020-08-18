@@ -4,18 +4,12 @@
 [submodule "solverstack-web"]
 	path = solverstack-web
 	url = https://github.com/andromia/solverstack-web
-[submodule "solverstack-user-auth"]
-	path = solverstack-user-auth
-	url = https://github.com/andromia/solverstack-user-auth
-[submodule "solverstack-user-crud"]
-	path = solverstack-user-crud
-	url = https://github.com/andromia/solverstack-user-crud
+[submodule "solverstack-user"]
+	path = solverstack-user
+	url = https://github.com/andromia/solverstack-user
 [submodule "solverstack-route"]
 	path = solverstack-route
 	url = https://github.com/andromia/solverstack-route
-[submodule "solverstack-crud"]
-	path = solverstack-crud
-	url = https://github.com/andromia/solverstack-vrp-crud
 [submodule "solverstack-gallery"]
 	path = solverstack-gallery
 	url = https://github.com/andromia/solverstack-gallery
