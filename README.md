@@ -17,12 +17,15 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 - [`solverstack-web`](https://github.com/andromia/solverstack-web) browser client
   - [next.js](https://github.com/vercel/next.js)
   - UI-driven [d3](https://github.com/d3/d3) visualization
-  
-**<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
+
+**[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>](https://github.com/microsoft/TypeScript) [Node.js](https://github.com/nodejs) services**
 
 - [`solverstack-user`](https://github.com/andromia/solverstack-user)
   - Gmail Authentication
   - Github Authentication
+  
+**<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> [flask](https://github.com/pallets/flask) services**
+
 
 - [`solverstack-geocode`](https://github.com/andromia/solverstack-geocode)
   - [pgeocode](https://github.com/symerio/pgeocode) geocoding service
