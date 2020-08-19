@@ -22,3 +22,6 @@
 [submodule "solverstack-depot"]
 	path = solverstack-depot
 	url = https://github.com/andromia/solverstack-depot
+[submodule "solverstack-crud"]
+	path = solverstack-crud
+	url = https://github.com/andromia/solverstack-crud
