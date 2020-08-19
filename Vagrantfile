@@ -57,11 +57,8 @@ Vagrant.configure(2) do |config|
     # queue
     config.vm.network :forwarded_port, guest: 7878, host: 7878
 
-    # user-auth
+    # user
     config.vm.network :forwarded_port, guest: 8080, host: 8080
-
-    # user-crud
-    config.vm.network :forwarded_port, guest: 8081, host: 8081
 
     # user-crud mongo db
     config.vm.network :forwarded_port, guest: 27017, host: 27017
