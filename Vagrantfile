@@ -58,10 +58,10 @@ Vagrant.configure(2) do |config|
     config.vm.network :forwarded_port, guest: 7878, host: 7878
 
     # user
-    config.vm.network :forwarded_port, guest: 8080, host: 8080
+    config.vm.network :forwarded_port, guest: 5005, host: 5005
 
-    # user-crud mongo db
-    config.vm.network :forwarded_port, guest: 27017, host: 27017
+    # user-crud
+    config.vm.network :forwarded_port, guest: 5006, host: 5006
 
     config.vm.provision "shell", path: SCRIPT
   end
