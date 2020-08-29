@@ -10,9 +10,6 @@
 [submodule "solverstack-route"]
 	path = solverstack-route
 	url = https://github.com/andromia/solverstack-route
-[submodule "solverstack-gallery"]
-	path = solverstack-gallery
-	url = https://github.com/andromia/solverstack-gallery
 [submodule "solverstack-geocode"]
 	path = solverstack-geocode
 	url = https://github.com/andromia/solverstack-geocode
