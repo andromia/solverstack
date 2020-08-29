@@ -36,31 +36,27 @@ Vagrant.configure(2) do |config|
     # vagrant plugin install vagrant-docker-compose
     config.vm.provision :docker_compose
 
+    # NOTE: service ports will be managed by docker for prod
+
     # web
     config.vm.network :forwarded_port, guest: 3000, host: 3000
 
     # route
     config.vm.network :forwarded_port, guest: 5000, host: 5000
 
-    # crud
+    # geocode
     config.vm.network :forwarded_port, guest: 5001, host: 5001
 
-    # crud postgreSQL db
+    # depot
     config.vm.network :forwarded_port, guest: 5002, host: 5002
 
-    # depot
+    # user
     config.vm.network :forwarded_port, guest: 5003, host: 5003
 
-    # geocode
+    # crud
     config.vm.network :forwarded_port, guest: 5004, host: 5004
 
-    # queue
-    config.vm.network :forwarded_port, guest: 7878, host: 7878
-
-    # user
-    config.vm.network :forwarded_port, guest: 5005, host: 5005
-
-    # user-crud
+    # crud postgreSQL db
     config.vm.network :forwarded_port, guest: 5006, host: 5006
 
     config.vm.provision "shell", path: SCRIPT

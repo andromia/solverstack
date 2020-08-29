@@ -37,13 +37,3 @@ We plan to release free services at solverstack.com. Users can also sign up and 
 
 - [`solverstack-crud`](https://github.com/andromia/solverstack-crud)
   - [postgreSQL](https://github.com/postgres/postgres) for module component data storage
-  
-**[<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>](https://github.com/rust-lang/rust) services**
-  
-- [`solverstack-queue`](https://github.com/andromia/solverstack-queue)
-  - Scalable asynchronous rpc integration service
-
-**Open-source contributions**
-
-- _TODO_: [`solverstack-gallery`](https://github.com/andromia/solverstack-gallery)
-  - [d3](https://github.com/d3/d3) sandboxes
