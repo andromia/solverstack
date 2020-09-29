@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "solverstack-web"
+		},
+		{
+			"path": "..\\ortools-pyinteractive"
 		}
 	]
 }
