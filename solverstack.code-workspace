@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "..\\ortools-pyinteractive"
+		},
+		{
+			"path": "..\\logistics"
 		}
 	]
 }
