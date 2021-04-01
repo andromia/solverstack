@@ -1,13 +1,7 @@
 # solverstack
 Software for modularized analytical solutions.
 
-## about the project
-The management of the solverstack project is completely open-sourced at the top. We want to provide transparency with where vision stands and how it's being executed.
-
-## about the product
-We plan to release free services at solverstack.com. Users can also sign up and create user-driven modules. In the future we plan to recycle tons of code for a native app. Our goal is to contribute plenty of open-sourced services and tools, as well as some unique d3.js visualizations.
-
-### information about technologies used
+### Structure
 
 **Client applications**
 
